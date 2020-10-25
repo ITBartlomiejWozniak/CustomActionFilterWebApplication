@@ -8,6 +8,7 @@ namespace CustomActionFilterWebApplication.Controllers
     [CustomFilter]
     public class ValuesController : ApiController
     {
+        [RequestTimingFilter]
         // GET api/values
         public IEnumerable<string> Get()
         {
