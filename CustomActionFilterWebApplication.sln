@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomActionFilterWebApplication", "CustomActionFilterWebApplication\CustomActionFilterWebApplication.csproj", "{49C97FBA-5D8D-4F5D-9988-83D8E0C82213}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{49C97FBA-5D8D-4F5D-9988-83D8E0C82213}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49C97FBA-5D8D-4F5D-9988-83D8E0C82213}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49C97FBA-5D8D-4F5D-9988-83D8E0C82213}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49C97FBA-5D8D-4F5D-9988-83D8E0C82213}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B4F8AF2C-AD94-4DA9-B583-6A5DAF953F93}
+	EndGlobalSection
+EndGlobal
