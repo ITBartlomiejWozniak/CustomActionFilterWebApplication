@@ -8,6 +8,7 @@ namespace CustomActionFilterWebApplication
         public static void RegisterGlobalFilters(HttpFilterCollection filters)
         {
             filters.Add(new CustomFilter());
+            filters.Add(new CustomExceptionFilter());
         }
     }
 }

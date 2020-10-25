@@ -1,4 +1,5 @@
 ﻿using CustomActionFilterWebApplication.Filters;
+using System;
 using System.Collections.Generic;
 using System.Web.Http;
 
@@ -14,10 +15,15 @@ namespace CustomActionFilterWebApplication.Controllers
         }
 
         // GET api/values/5
+
+        [CustomExceptionFilter]
         public string Get(int id)
         {
+            if (id < 0)
+                throw new Exception("Can't be negative number.");
             return "value";
         }
+
 
         // POST api/values
         public void Post([FromBody] string value)

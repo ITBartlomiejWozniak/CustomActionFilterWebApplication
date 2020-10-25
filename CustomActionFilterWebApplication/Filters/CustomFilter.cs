@@ -28,6 +28,7 @@ namespace CustomActionFilterWebApplication.Filters
 
         public override Task OnActionExecutingAsync(HttpActionContext actionContext, CancellationToken cancellationToken)
         {
+            
             Debug.WriteLine("OnActionExecutingAsync called.");
             return base.OnActionExecutingAsync(actionContext, cancellationToken);
         }
